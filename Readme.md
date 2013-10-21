@@ -48,7 +48,7 @@ To use with ExpressJS:
     
 ## API Docs
 
-
+The [API Docs](https://github.com/randysecrist/connect-riak/blob/master/API.md) are generated using [Dox](https://github.com/visionmedia/dox).
 
 # License
 
