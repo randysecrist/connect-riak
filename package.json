@@ -1,0 +1,17 @@
+{
+  "name": "connect-riak",
+  "description": "Riak session store for Connect",
+  "version": "0.0.1",
+  "author": "Randy Secrist <randy.secrist@gmail.com>",
+  "main": "./index.js",
+  "repository": { "type": "git", "url": "git@github.com:randysecrist/connect-riak.git" },
+  "dependencies": { "nodiak": "0.3.x", "debug": "*" },
+  "devDependencies": { "connect": "*" },
+  "engines": { "node": "*" },
+  "bugs": {
+    "url": "https://github.com/randysecrist/connect-riak/issues"
+  },
+  "scripts":{
+    "test":"DEBUG=connect:riak node test.js"
+  }
+}
