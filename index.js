@@ -1,2 +1,2 @@
 
-module.exports = require('./lib/connect-riak');
+module.exports = require('./lib/connect-riak-sessions');

@@ -1,6 +1,6 @@
 {
-  "name": "connect-riak",
-  "description": "Riak session store for Connect",
+  "name": "connect-riak-sessions",
+  "description": "Connect (ExpressJS) middleware that stores session data in Riak",
   "version": "0.0.1",
   "author": "Randy Secrist <randy.secrist@gmail.com>",
   "main": "./index.js",
