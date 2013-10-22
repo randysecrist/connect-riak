@@ -1,14 +1,14 @@
-# Connect Riak
+# Connect Riak Sessions
 
-connect-riak is a Riak session store implemented as middleware for [connect](https://github.com/senchalabs/connect) & [expressjs](https://github.com/visionmedia/express) backed by [nodiak](https://github.com/nathanaschbacher/nodiak).  Any version of Riak will work.
+connect-riak-sessions is a Riak session store implemented as middleware for [connect](https://github.com/senchalabs/connect) & [expressjs](https://github.com/visionmedia/express) backed by [nodiak](https://github.com/nathanaschbacher/nodiak).  Any version of Riak will work.
 
 For extra bang for your buck; see automatic key expiration using [bitcask](http://docs.basho.com/riak/latest/ops/advanced/backends/bitcask).
 
- connect-riak `>= 0.0.1` support only connect `>= 2.9.2`.
+ connect-riak-sessions `>= 0.0.1` support only connect `>= 2.9.2`.
 
 ## Installation
 
-	  $ npm install connect-riak
+	  $ npm install connect-riak-sessions
 
 ## Options
   
@@ -24,7 +24,7 @@ For extra bang for your buck; see automatic key expiration using [bitcask](http:
 To use with Connect:
 
     var connect = require('connect'),
-        RiakStore = require('connect-riak')(connect);
+        RiakStore = require('connect-riak-sessions')(connect);
 
     connect().use(connect.session({
       secret: 'keyboard cat',
@@ -33,7 +33,7 @@ To use with Connect:
  
 To use with ExpressJS:
     
-    var RiakStore = require('connect-riak')(express);
+    var RiakStore = require('connect-riak-sessions')(express);
     
     // Configure Middleware
     app.use(express.session({
@@ -48,7 +48,7 @@ To use with ExpressJS:
     
 ## API Docs
 
-The [API Docs](https://github.com/randysecrist/connect-riak/blob/master/API.md) are generated using [Dox](https://github.com/visionmedia/dox).
+The [API Docs](https://github.com/randysecrist/connect-riak-sessions/blob/master/API.md) are generated using [Dox](https://github.com/visionmedia/dox).
 
 # License
 
