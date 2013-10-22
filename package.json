@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "author": "Randy Secrist <randy.secrist@gmail.com>",
   "main": "./index.js",
-  "repository": { "type": "git", "url": "git@github.com:randysecrist/connect-riak.git" },
+  "repository": { "type": "git", "url": "git@github.com:randysecrist/connect-riak-sessions.git" },
   "dependencies": { "nodiak": "0.3.x", "debug": "*" },
   "devDependencies": { "connect": "*" },
   "engines": { "node": "*" },
