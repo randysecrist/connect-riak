@@ -4,7 +4,7 @@ connect-riak-sessions is a Riak session store implemented as middleware for [con
 
 For extra bang for your buck; see automatic key expiration using [bitcask](http://docs.basho.com/riak/latest/ops/advanced/backends/bitcask).
 
- connect-riak-sessions `>= 0.0.1` support only connect `>= 2.9.2`.
+ connect-riak-sessions `>= 0.0.1` developed on connect `2.9.2`.
 
 ## Installation
 
