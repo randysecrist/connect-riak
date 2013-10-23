@@ -1,6 +1,6 @@
 # Connect Riak Sessions
 [![Build Status](https://travis-ci.org/randysecrist/connect-riak-sessions.png)](https://travis-ci.org/randysecrist/connect-riak-sessions)
-[![Gem Version](https://badge.fury.io/js/connect-riak-sessions.png)](http://badge.fury.io/rb/connect-riak-sessions)
+[![Gem Version](https://badge.fury.io/js/connect-riak-sessions.png)](http://badge.fury.io/js/connect-riak-sessions)
 
 connect-riak-sessions is a Riak session store implemented as middleware for [connect](https://github.com/senchalabs/connect) & [expressjs](https://github.com/visionmedia/express) backed by [nodiak](https://github.com/nathanaschbacher/nodiak).  Any version of Riak will work.
 
