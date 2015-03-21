@@ -4,7 +4,7 @@
  */
 
 var assert = require('assert')
-  , connect = require('connect')
+  , connect = require('express-session')
   , RiakStore = require('./')(connect);
 
 var store = new RiakStore({
