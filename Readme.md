@@ -23,9 +23,9 @@ For extra bang for your buck; see automatic key expiration using [bitcask](http:
 
 ## Usage
 
-To use with Connect:
+To use with Connect or a Test Framework:
 
-    var connect = require('connect'),
+    var connect = require('express-session'),
         RiakStore = require('connect-riak-sessions')(connect);
 
     connect().use(connect.session({
@@ -34,9 +34,9 @@ To use with Connect:
     }));
  
 To use with ExpressJS:
-    
+
     var RiakStore = require('connect-riak-sessions')(express);
-    
+
     // Configure Middleware
     app.use(express.session({
       store: new RiakSessionStore({

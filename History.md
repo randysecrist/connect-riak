@@ -3,3 +3,9 @@
 ==================
 
   * initial work
+
+0.0.2 / 2015-03-21
+==================
+
+  * use express-session
+  * ensure tests pass

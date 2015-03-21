@@ -6,7 +6,7 @@
   "main": "./index.js",
   "repository": { "type": "git", "url": "git@github.com:randysecrist/connect-riak-sessions.git" },
   "dependencies": { "nodiak": "0.4.x", "debug": "*" },
-  "devDependencies": { "express-session": "^1.9.1" },
+  "devDependencies": { "connect": "*" },
   "engines": { "node": "*" },
   "bugs": {
     "url": "https://github.com/randysecrist/connect-riak/issues"
