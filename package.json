@@ -1,7 +1,7 @@
 {
   "name": "connect-riak-sessions",
   "description": "Connect (ExpressJS) middleware that stores session data in Riak",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Randy Secrist <randy.secrist@gmail.com>",
   "main": "./index.js",
   "repository": { "type": "git", "url": "git@github.com:randysecrist/connect-riak-sessions.git" },
