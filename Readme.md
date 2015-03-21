@@ -6,14 +6,14 @@ connect-riak-sessions is a Riak session store implemented as middleware for [con
 
 For extra bang for your buck; see automatic key expiration using [bitcask](http://docs.basho.com/riak/latest/ops/advanced/backends/bitcask).
 
- connect-riak-sessions `>= 0.0.1` developed on connect `2.9.2`.
+connect-riak-sessions `>= 0.0.1` developed on connect `2.9.2`.
 
 ## Installation
 
 	  $ npm install connect-riak-sessions
 
 ## Options
-  
+
   - `client` An existing nodiak client object you normally get from `riak.getClient()`
   - `bucket` Riak bucket to use defaulting to `expressjs_sessions`
   - `scheme` Riak scheme ('http'|'https')
@@ -32,7 +32,7 @@ To use with Connect or a Test Framework:
       secret: 'keyboard cat',
       store: new RiakStore(options)
     }));
- 
+
 To use with ExpressJS:
 
     var RiakStore = require('connect-riak-sessions')(express);
@@ -47,7 +47,7 @@ To use with ExpressJS:
       }),
       secret: 'keyboard cat'
     }));
-    
+
 ## API Docs
 
 The [API Docs](https://github.com/randysecrist/connect-riak-sessions/blob/master/API.md) are generated using [Dox](https://github.com/visionmedia/dox).
