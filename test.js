@@ -16,7 +16,7 @@ var store = new RiakStore({
 
 // #set()
 store.set('123', { cookie: { maxAge: 2000 }, name: 'rks' }, function(err, ok){
-  assert.ok(!err, '#set() got an error');
+  assert.ifError(err);
   assert.ok(ok, '#set() is not ok');
 
   // #get()
