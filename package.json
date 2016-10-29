@@ -5,7 +5,7 @@
   "author": "Randy Secrist <randy.secrist@gmail.com>",
   "main": "./index.js",
   "repository": { "type": "git", "url": "git@github.com:randysecrist/connect-riak-sessions.git" },
-  "dependencies": { "nodiak": "0.4.x", "debug": "*" },
+  "dependencies": { "basho-riak-client": "2.2.x", "debug": "*" },
   "devDependencies": { "express-session": "^1.9.1" },
   "engines": { "node": "*" },
   "bugs": {
